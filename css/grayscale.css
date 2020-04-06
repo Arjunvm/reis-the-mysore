@@ -1,7 +1,7 @@
 
 #mainNav {
   min-height: 50px;
-  background-color: #fff;
+  background-color:black;
 }
 
 #mainNav .navbar-toggler {
@@ -183,7 +183,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid black;
+    border-left: 0.5rem solid blue;
   }
 }
 
@@ -203,7 +203,7 @@ projects-section bg-light {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color:black;
+    border-color:blue;
     border-width: .25rem;
     width: 30%;
   }
