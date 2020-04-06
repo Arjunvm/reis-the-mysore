@@ -1,7 +1,7 @@
 
 #mainNav {
-  min-height: 50px;
-  background-color:black;
+  min-height: 56px;
+  background-color: #fff;
 }
 
 #mainNav .navbar-toggler {
@@ -16,7 +16,7 @@
 }
 
 #mainNav .navbar-brand {
-  color:black;
+  color: #161616;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -24,7 +24,7 @@
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
-  background-color:black;
+  background-color: transparent;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -55,14 +55,8 @@
   #mainNav .nav-link:active {
     color: white;
   }
-   #mainNav .nav-link:active1 {
-    color: black;
-  }
   #mainNav.navbar-shrink {
     background-color: #fff;
-  }
-   #mainNav.navbar-shrink1 {
-    background-color:black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
@@ -160,7 +154,7 @@
 }
 
 .btn-primary:active {
-  background-color:white !important;
+  background-color: #467370 !important;
 }
 
 .about-section {
@@ -183,7 +177,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid white;
+    border-left: 0.5rem solid #64a19d;
   }
 }
 
@@ -192,18 +186,12 @@
   font-size: 90%;
 }
 
-projects-section bg-light {
-  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
-}
-  
-  
-
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color:blue;
+    border-color: #64a19d;
     border-width: .25rem;
     width: 30%;
   }
@@ -300,5 +288,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 4rem 0;
+  padding: 5rem 0;
 }
