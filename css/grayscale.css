@@ -1,11 +1,6 @@
-/*!
- * Start Bootstrap - Grayscale v5.0.9 (https://startbootstrap.com/template-overviews/grayscale)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/master/LICENSE)
- */
 
 #mainNav {
-  min-height: 56px;
+  min-height: 50px;
   background-color: #fff;
 }
 
@@ -60,8 +55,14 @@
   #mainNav .nav-link:active {
     color: white;
   }
+   #mainNav .nav-link:active1 {
+    color: black;
+  }
   #mainNav.navbar-shrink {
     background-color: #fff;
+  }
+   #mainNav.navbar-shrink1 {
+    background-color:black;
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: #161616;
