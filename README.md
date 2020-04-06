@@ -1,2 +1,2 @@
 reis-the-mysore.com
-<img href="img/firstpage.png">
+<img href="img/first page.png">
