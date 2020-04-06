@@ -16,7 +16,7 @@
 }
 
 #mainNav .navbar-brand {
-  color: #161616;
+  color:black;
   font-weight: 700;
   padding: .9rem 0;
 }
@@ -24,7 +24,7 @@
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(white, 80%);
   outline: none;
-  background-color: transparent;
+  background-color:black;
 }
 
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
@@ -160,7 +160,7 @@
 }
 
 .btn-primary:active {
-  background-color:black !important;
+  background-color:white !important;
 }
 
 .about-section {
@@ -183,7 +183,7 @@
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid blue;
+    border-left: 0.5rem solid white;
   }
 }
 
@@ -300,5 +300,5 @@ a:focus, a:hover {
 }
 
 footer {
-  padding: 5rem 0;
+  padding: 4rem 0;
 }
