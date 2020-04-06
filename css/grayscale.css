@@ -192,6 +192,12 @@
   font-size: 90%;
 }
 
+projects-section bg-light {
+  background: linear-gradient(to bottom, #161616 0%, rgba(22, 22, 22, 0.9) 75%, rgba(22, 22, 22, 0.8) 100%);
+}
+  
+  
+
 @media (min-width: 992px) {
   .projects-section .project-text {
     padding: 5rem;
